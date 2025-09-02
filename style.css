@@ -1,9 +1,68 @@
 body {
-	margin: 0;
-	padding: 0;
+    justify-items: center;
+    background-color: rgba(92, 154, 235, 0.815);
 }
 
-.task {
-    height: 0;
-    width: 0;
+.titulo {
+    font-size: xx-large;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.task_input {
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.add-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: rgb(51, 132, 187);
+    color: rgb(255, 255, 255);
+}
+
+.add-btn:hover {
+    background-color: rgb(34, 105, 199);
+}
+
+.add-btn:active {
+    background-color: gray;
+}
+
+.list-tasks {
+    background-color: #fff;
+    padding: 12px;
+    justify-items: center;
+    border-radius: 10px;
+}
+
+.task-t {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin: 0;
+}
+
+.clo-btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    width: 120px;
+    margin-left: 102px;
+    border-radius: 15px;
+    background-color: rgb(6, 44, 94);
+    color: rgb(255, 255, 255);
+}
+
+.clo-btn:hover {
+    background-color: rgb(34, 105, 199);
+}
+
+.clo-btn:active {
+    background-color: gray;
 }

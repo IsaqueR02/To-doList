@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>ToDoList</title>
 </head>
 <body>
-    <input type="text">
-    <button type="button">Adicionar</button>
-    <ul id="task"></ul>
+    <main>
+        <h1 class="titulo">
+            Lista de Tarefas
+        </h1>
+    <div>
+        <input id="new-task" class="task_input" type="text">
+        <button onclick="adicionarTarefa()" type="button" class="add-btn">Adicionar</button>
+    </div>
+    <div>
+        <ul id="task" class="list-tasks">
+            <p class="task-t">Tarefa</p>
+            <button class="clo-btn">Concluida</button>
+        </ul>
+    </div>
+    </main>
     
+    <script src="script.js"></script>
 </body>
 </html>
