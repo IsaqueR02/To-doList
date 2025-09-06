@@ -45,15 +45,18 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .clo-btn {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     padding: 10px;
-    width: 120px;
-    margin-left: 102px;
+    width: 60px;
+    margin-left: 150px;
     border-radius: 15px;
     background-color: rgb(6, 44, 94);
     color: rgb(255, 255, 255);
@@ -64,5 +67,25 @@ body {
 }
 
 .clo-btn:active {
+    background-color: gray;
+}
+
+.clo-btn--rmv {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    width: 60px;
+    margin-left: 150px;
+    border-radius: 15px;
+    background-color: rgb(6, 44, 94);
+    color: rgb(255, 255, 255);
+}
+
+.clo-btn--rmv:hover {
+    background-color: rgb(34, 105, 199);
+}
+
+.clo-btn--rmv:active {
     background-color: gray;
 }
