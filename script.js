@@ -14,14 +14,9 @@ function adicionarTarefa() {
     }
     
     let itemList = document.createElement("li");
-    let nameTask = document.createElement("p");
-    nameTask.classList = "list-task";
-    let btn = document.createElement("button");
-    btn.className = "clo-btn rmv-btn";
-    let remove = btn.textContent = "x";
-    let completed = btn.textContent = "√";
 
-    itemList.textContent = itemList.textContent + (nameTask.textContent = nameTask.textContent + tarefa.value);
+    
+    itemList.textContent = itemList.textContent + `${tarefa.value}`;
 
     lista.appendChild(itemList)
 }
