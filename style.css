@@ -89,3 +89,9 @@ body {
 .clo-btn--rmv:active {
     background-color: gray;
 }
+
+/* Adicione esta classe ao seu arquivo style.css */
+.concluida {
+    text-decoration: line-through;
+    color: #888;
+}
